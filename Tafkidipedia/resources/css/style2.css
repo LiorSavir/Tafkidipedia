@@ -65,8 +65,7 @@ h3 {
 
 h1 {
   margin-top: 0;
-  margin-bottom: 20px;
-  color: #fff;
+  margin-bottom: 400px;
   font-size: 240%;
   word-spacing: 4px;
 }
@@ -79,6 +78,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 300px;
   font-size: 110%;
   margin-bottom: 15px;
 }
@@ -170,7 +170,7 @@ input[type="submit"] {
 input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
-  color: #fff;
+  color: #e67e22;
   margin-right: 15px;
 }
 
@@ -197,7 +197,7 @@ input[type="submit"]:active {
 .btn-ghost:hover,
 .btn-ghost:active {
   border: 1px solid #cf6d17;
-  color: #fff;
+  color: #e67e22;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -205,8 +205,6 @@ input[type="submit"]:active {
 /*-------------------------------------------------------------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -251,7 +249,7 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
   padding: 8px 0;
-  color: #fff;
+  color: #e67e22;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
@@ -693,20 +691,20 @@ footer p {
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto");
 
 /*.filter {
-     position: absolute;
-     left: 0;
-     top: 0;
-     bottom: 0;
-     right: 0;
-     z-index: 1;
-     /*background: rgb(233, 76, 161);
-     background: -moz-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
-     background: -webkit-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
-     background: linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e67e22", endColorstr="#e67e22", GradientType=1);
-     opacity: .7;
- }
-*/
+       position: absolute;
+       left: 0;
+       top: 0;
+       bottom: 0;
+       right: 0;
+       z-index: 1;
+       /*background: rgb(233, 76, 161);
+       background: -moz-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+       background: -webkit-linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+       background: linear-gradient(90deg, rgba(233, 76, 161, 1) 0%, rgba(199, 74, 233, 1) 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e67e22", endColorstr="#e67e22", GradientType=1);
+       opacity: .7;
+   }
+  */
 
 table {
   position: absolute;
