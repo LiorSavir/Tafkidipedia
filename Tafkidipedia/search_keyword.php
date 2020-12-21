@@ -25,9 +25,11 @@
                      <li><a href="search_keyword.php?keyword=ton">תון</a></li>
                      <li><a href="search_keyword.php?keyword=versatile">ורסטילי</a></li>
                      <li><a href="search_all_jobs.php">הכל</a></li>
+                     <li><a href="prefere-question.php">שאלון העדפות</a>
                  </ul>
              </div>
-         </nav>        
+         </nav> 
+    <table border="1">          
       <?php
 
         include "db_connect.php";
@@ -48,14 +50,15 @@
         if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "Job ID: " . $row["jobID"]. " - Unit: " . $row["job_unit"]. " - Migzar: " . $row["job_migzar"]. 
+            echo "<tr>" . "<td>" . "Job ID: "  . $row["jobID"]. " - Unit: " . $row["job_unit"]. " - Migzar: " . $row["job_migzar"]. 
             " - Mahlaka: " . $row["job_mahlaka"]. " - Anaf: " . $row["job_anaf"]. " - Mador: " . $row["job_mador"].
-            " - Tafkid: " . $row["job_tafkid"]. " - Current: " . $row["job_current"]. " - Certain: " . $row["job_certain"]. "<br>";
+            " - Tafkid: " . $row["job_tafkid"]. " - Current: " . $row["job_current"]. " - Certain: " . $row["job_certain"]. "</td>" . "</tr>" . "<br>";
         }
         } else {
         echo "0 results";
         }
     ?>
+    </table>
     </header>
         <footer>
           <div class="row">

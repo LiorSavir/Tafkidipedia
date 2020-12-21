@@ -26,6 +26,7 @@
                      <li><a href="search_keyword.php?keyword=ton">תון</a></li>
                      <li><a href="search_keyword.php?keyword=versatile">ורסטילי</a></li>
                      <li><a href="search_all_jobs.php">הכל</a></li>
+                     <li><a href="prefere-question.php">שאלון העדפות</a>
                  </ul>
              </div>
          </nav>
